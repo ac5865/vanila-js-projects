@@ -7,4 +7,4 @@ Mini projects built in HTML, CSS and Javascript
 | Form Validator  | <a href="https://ecstatic-mirzakhani-192bfe.netlify.app/">Click Here </a>  |
 | Music Player  | <a href="https://laughing-feynman-d6372a.netlify.app/">Click Here </a>  |
 | Notes App  | <a href="https://stoic-bhabha-926133.netlify.app/">Click Here </a>  |
-
+| Word Counter | <a href="https://objective-johnson-a5e05c.netlify.app/">Click Here </a>  |

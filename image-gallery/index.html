@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title> Image Gallery</title>
+    <link rel="stylesheet" href="style.css" />
+    <script src="script.js" defer></script>
+</head>
+<body>
+    <h1> UI Design Image Gallery</h1>
+    <div class="full-img" id="fullImgBox">
+        <img src="Images/Food.png" id="fullImg">
+        <span onclick="closeImg()">x</span> 
+    </div>
+
+    <div class="img-gallery">
+        <img src="Images/Food.png" onclick="openImg(this.src)">
+        <img src="Images/Custom Size – Shopping Cart.png" onclick="openImg(this.src)">
+        <img src="Images/IceCream.png" onclick="openImg(this.src)">
+        <img src="Images/UI- Boarding Pass.png" onclick="openImg(this.src)">
+        <img src="Images/Movie.png" onclick="openImg(this.src)">
+        <img src="Images/Sofa.png" onclick="openImg(this.src)">
+        <img src="Images/Music.png" onclick="openImg(this.src)">
+        <img src="Images/Trip.png" onclick="openImg(this.src)">
+    </div>
+
+</body>
+</html>

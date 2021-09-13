@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Basic Photot Editor</title>
+    <link rel="stylesheet" href="style.css" />
+    <script src="script.js" defer></script>
+</head>
+<body>
+    <div class="container">
+        <div class="editor">
+            <div class="filters">
+                <label for="blur">Blur</label>
+                <input type="range" min="0" max="5" value="0" step="0.1" id="blur">
+            </div>
+            <div class="filters">
+                <label for="contrast">Contrast</label>
+                <input type="range" min="0" max="200" value="100" id="contrast">
+            </div>
+            <div class="filters">
+                <label for="hue-rotate">Hue Rotate</label>
+                <input type="range" min="0" max="360" value="0" id="hue-rotate">
+            </div>
+            <div class="filters">
+                <label for="sepia">Sepia</label>
+                <input type="range" min="0" max="100" value="0" id="sepia">
+            </div>
+        <div class="flip-options">
+            <div class="flip-option">
+                <input type="radio" name="flip" id="no-flip" checked>
+                <label for="no-flip">No Flip</label>
+            </div>
+            <div class="flip-option">
+                <input type="radio" name="flip" id="x-flip">
+                <label for="x-flip">Horizontal Flip</label>
+            </div>
+            <div class="flip-option">
+                <input type="radio" name="flip" id="y-flip">
+                <label for="y-flip">Vertical Flip</label>
+            </div>
+        </div>
+    </div>
+    <div class="result">
+        <figure class="image-container">
+            <img id="chosen-image">
+        </figure>
+        <input type="file" id="upload-button" accept="Image/*">
+        <label for="upload-button">Choose An Image</label>
+    </div>
+    </div>
+</body>
+</html>
